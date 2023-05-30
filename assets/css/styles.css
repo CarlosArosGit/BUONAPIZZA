@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(90deg, #0c5e18 10%, #c0622c 60%, red 75%);
+}
+.cardBlanca{
+    text-align: initial;
+    background-color: white;
+    width: 98%;
+    height: 600px;
+}
+.seccionGris{
+    background-color: rgb(198 198 198 / 10%);
+    border-radius: 25px;
+    height: 50px;
+}
+.seccionPropina{
+    border: 0.5px solid rgb(122, 121, 121);
+    border-radius: 25px;
+    height: 60px;
+}
+.may{
+    padding: 12px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.pParrafo{
+    font-weight: 600;
+    padding-left: 20px;
+}
+.checksList{
+    padding-left: 20px;
+}
+.detalle{
+    padding: 20px;
+}
+.detallePropinaSeccion{
+    padding: 10px;
+}
+.lDetalle{
+    font-weight: 600;
+}
+.tEnd{
+    text-align: end;
+    font-weight: 600;
+}
+#btnEnviar{
+    margin-left: 55px;
+    border-radius: 25px;
+}
+.hrM{
+    margin-top: 5px;
+}
+#inputPropina{
+    border: 0;
+}
+.derecha{
+    display: flex;
+    justify-content: flex-end;
+}
+#mensaje{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#otroPedido{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 800px) {
+    .cardBlanca{
+        height: 1300px;
+    }
+    #btnEnviar {
+        margin-left: 0px; 
+        border-radius: 25px;
+        margin-top: 25px;
+        width: 100%;
+        height: 60px;
+        font-size: 25px;
+    }
+  }
